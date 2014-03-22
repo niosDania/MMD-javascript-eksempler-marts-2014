@@ -1,0 +1,38 @@
+<HTML>
+    <header>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+        <script src="javascript.js"></script>
+    </header>
+    <body>
+        
+        
+        <form id="beregner" name="beregner" onsubmit="return beregn();">
+            <div id="title">Løbeberegner</div>            
+            
+            <div class="row">
+                <span class="ledetekst">Distance:&nbsp;&nbsp;</span>
+                <span class="felt"><input name="distance" class="input" type="text" id="distance" size="20" tabindex="1"  /></span>
+            </div>
+            
+            <div class="row">
+                <span class="ledetekst">Tid:&nbsp;&nbsp;</span>
+                <span class="felt"><input name="minutter" class="input" type="text" id="minutter" size="5" tabindex="2"  />&nbsp;:&nbsp;<input name="sekunder" class="input" type="text" id="sekunder" size="5" tabindex="3"  /></span>
+            </div>
+            <div class="row">
+                <span class="ledetekst">&nbsp;</span>
+                <span class="felt"><input type="submit" name="beregn nu"></span>
+            </div>
+           <div class="row">
+                <span class="ledetekst">Hastighed:</span>
+               <span class="felt" id="hastighed">___ km/t</span>
+            </div>
+            <div class="row">
+                <span class="ledetekst">Tempo:</span>
+                <span class="felt" id="tempo">___ min/km</span>
+            </div>
+            
+        </form>
+        
+    
+    </body>
+</HTML>

@@ -1,0 +1,51 @@
+<HTML>
+    <header>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+        <script src="form.js"></script>
+    </header>
+    <body>
+        <div id="fejlfelt" class="fejlfelt">
+                <span class="fejltekst" id="fejltekst">Der er ingen fejl!</span>
+        </div>
+        
+        <div id="succesfelt" class="succesfelt">
+                <span class="succestekst" id="succestekst">Tak for din tilmelding...</span>
+        </div>
+        
+        <form id="tilmelding" name="tilmelding" onsubmit="return validate();">
+            <div id="title">Indmeldelse</div>            
+            
+            <div class="row"><span class="ledetekst">Fornavn:&nbsp;&nbsp;</span>
+                <span class="felt"><input name="fornavn" class="input" type="text" id="fornavn" size="20" tabindex="1"  /></span>
+            </div>
+            <div class="row"><span class="ledetekst">Efternavn:&nbsp;&nbsp;</span>
+                <span class="felt"><input name="efternavn" class="input" type="text" id="efternavn" size="20" tabindex="2" /></span>
+            </div>
+            <div class="row"><span class="ledetekst">Gade/vej + nr:&nbsp;&nbsp;</span>
+                <span class="felt"><input name="gade" class="input" type="text" id="gade" size="20" tabindex="3" /></span>
+            </div>
+            <div class="row"><span class="ledetekst">Postnr:&nbsp;&nbsp;</span>
+                <span class="felt"><input name="postnr" class="input" type="text" id="postnr" size="20" tabindex="5" /></span>
+            </div>
+            <div class="row"><span class="ledetekst">By:&nbsp;&nbsp;</span>
+                <span class="felt"><input name="by" class="input" type="text" id="by" size="20" tabindex="4" /></span>
+            </div>
+            <div class="row"><span class="ledetekst">Telefon:&nbsp;&nbsp;</span>
+                <span class="felt"><input name="telefon" class="input" type="text" id="telefon"  size="20" tabindex="6" /></span>
+            </div>
+            <div class="row"><span class="ledetekst">K&oslash;n:&nbsp;&nbsp;</span>
+                <input type="radio" id="kon_mand" name="kon" value="mand" tabindex="7">Mand&nbsp;
+                <input type="radio" id="kon_kvinde" name="kon" value="kvinde">Kvinde
+            </div>   
+           
+         
+            
+            <div class="row"><span class="ledetekst">&nbsp;&nbsp;</span>
+                    <span class="felt"><input type=submit name="Tilmeld" border="0" tabindex="10" /></span>
+            </div>
+            
+        </form>
+        
+    
+    </body>
+</HTML>

@@ -1,0 +1,99 @@
+body {
+	background-color: #FFCC00;
+	font: 11px/24px "Lucida Grande", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #5A698B;
+}
+
+#title {
+	width: 330px;
+	height: 26px;
+	color: #5A698B;
+	font: bold 11px/18px "Lucida Grande", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding-top: 5px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+form {
+	width: 335px;
+}
+
+.fejlfelt {
+    text-align: center;
+    width: 335px;
+	background-color: #FF0000;
+    visibility: hidden;
+}
+
+.fejltekst {
+	text-align: right;
+	width: 315px;
+	margin: 0;
+	color: #ffffff;
+    background-color: : #FF0000;
+
+}
+
+
+.succesfelt {
+    text-align: center;
+    width: 335px;
+	background-color: #ffffff;
+    visibility: hidden;
+    background-color: #FFCC00;
+	font: 11px/24px "Lucida Grande", "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.succestekst {
+	text-align: center;
+	width: 315px;
+	margin: 0;
+	color: #66ff66;
+    background-color: : #FF0000;
+
+}
+
+.ledetekst {
+	text-align: right;
+	width: 135px;
+	height: 31px;
+	margin: 0;
+	float: left;
+	margin-right: 2px;
+	color: #5A698B;
+}
+
+.felt {
+	width: 195px;
+	height: 31px;
+	display: block;
+	float: left;
+	margin: 0;
+	color: #ff698B;
+}
+
+
+
+div.row {
+	clear: both;
+	width: 335px;
+}
+
+
+.input {
+	background-color: #ffffff;
+	font: 11px/14px "Lucida Grande", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #5A698B;
+	margin: 4px 0 5px 8px;
+	padding: 1px;
+	border: 1px solid #8595B2;
+}
+
+input:focus
+{ 
+    background-color:yellow;
+    box-shadow:none;
+    border:1; 
+}
+
