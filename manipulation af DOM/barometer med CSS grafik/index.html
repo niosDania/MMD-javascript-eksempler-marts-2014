@@ -1,0 +1,18 @@
+<HTML>
+    <header>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+        <script src="javascript.js"></script>
+    </header>
+    <body onload="tegnSkala('lightgrey'); tegnViser(1050);">
+        <div class="row">
+            <canvas id="myCanvas" width="300" height="250"></canvas>
+        </div>
+            
+        <div class="row" id="indledning">Indstil lufttryk i millibar</div>
+
+        <div class="row">
+            900<input type="range" max="1080" min="900" onchange="visVejret();" name="millibar" id="millibar" >1080<br />
+            <p name="vismillibar" id="vismillibar">0</p>
+        </div>
+    </body>
+</HTML>

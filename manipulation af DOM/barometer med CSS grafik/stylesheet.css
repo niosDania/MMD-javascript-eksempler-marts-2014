@@ -1,0 +1,52 @@
+body {
+	background-color: #ffffff;
+	font: 11px/24px "Lucida Grande", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #5A698B;
+}
+
+
+IMG {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+div.row {
+	clear: both;
+	width: 335px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.input {
+	background-color: #ffffff;
+	font: 11px/14px "Lucida Grande", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #5A698B;
+	margin: 4px 0 5px 8px;
+	padding: 1px;
+	border: 1px solid #8595B2;
+}
+
+input:focus
+{ 
+    background-color:#f3f3f3;
+    box-shadow:solid;
+    border:1; 
+}
+
+input[type="range"] {
+    color: lightblue; 
+    cursor: pointer;
+   
+}
+
+canvas{
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
