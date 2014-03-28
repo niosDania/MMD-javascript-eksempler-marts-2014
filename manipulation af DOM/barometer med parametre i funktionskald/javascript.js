@@ -1,7 +1,7 @@
 //javascript til barometer
 
-function opdater(ikon, tekst){
-    document.getElementById('ikon').src =  "icon-set/PNG/250x250/"+ ikon +".png";
+function opdater(billedeDerSkalVises, tekst){
+    document.getElementById('ikon').src =  "icon-set/PNG/250x250/"+ billedeDerSkalVises +".png";
     document.getElementById('indledning').innerHTML =  tekst;
 }
 

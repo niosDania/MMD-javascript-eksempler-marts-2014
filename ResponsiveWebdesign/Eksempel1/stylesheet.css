@@ -1,0 +1,18 @@
+#container {
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#venstre-kolonne {
+    width: 400px;
+    float: left;
+    background: red;
+}
+
+#hojre-kolonne {
+    width: 200px;
+    float: right;
+    background: green;
+}
+

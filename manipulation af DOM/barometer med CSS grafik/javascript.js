@@ -17,7 +17,7 @@ function sletSkala(){
     context.lineWidth = 17;
 
     // line color
-    context.strokeStyle = 'white';
+    context.strokeStyle = 'red';
     context.stroke();
 }
 
@@ -54,7 +54,7 @@ function tegnViser(millibar){
     context.lineWidth = 15;
 
     // line color
-    context.strokeStyle = 'black';
+    context.strokeStyle = 'yellow';
     context.stroke();
 }
 

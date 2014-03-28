@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<HTML>
+    <header>
+        <title>Klip</title>
+         <link rel='stylesheet' href='http://bradfrost.github.com/this-is-responsive/styles.css'>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+          <script>
+    window.open    = function(){};
+    window.print   = function(){};
+    // Support hover state for mobile.
+    if (false) {
+      window.ontouchstart = function(){};
+    }
+
+    function __linkClick(e) {
+      parent.window.postMessage(this.href, '*');
+    };
+
+    function __bindToLinks() {
+      var __links = document.querySelectorAll('a');
+      for (var i = 0, l = __links.length; i < l; i++) {
+        if ( __links[i].getAttribute('data-t') == '_blank' ) {
+          __links[i].addEventListener('click', __linkClick, false);
+        }
+      }
+    }
+  </script>
+        
+    </header>
+    <body>
+
+        
+        
+  	<ul class="grid">
+			<li>
+				<div>
+					<a href="#">1</a>
+				</div>
+			</li>
+			<li>
+				<div>
+					<a href="#">2</a>
+				</div>
+			</li>
+			<li>
+				<div>
+					<a href="#">3</a>
+				</div>
+			</li>
+			<li>
+				<div>
+					<a href="#">4</a>
+				</div>
+			</li>
+			<li class="wide">
+				<div>
+					<a href="#">5</a>
+				</div>
+			</li>
+			<li class="wide">
+				<div>
+					<a href="#">6</a>
+				</div>
+			</li>
+			<li>
+				<div>
+					<a href="#">7</a>
+				</div>
+			</li>
+			<li>
+				<div>
+					<a href="#">8</a>
+				</div>
+			</li>
+			<li>
+				<div>
+					<a href="#">9</a>
+				</div>
+			</li>
+			<li>
+				<div>
+					<a href="#">10</a>
+				</div>
+			</li>
+		</ul>
+	
+	
+
+
+
+
+	
+	
+    </body>
+</HTML>
+
+
+
